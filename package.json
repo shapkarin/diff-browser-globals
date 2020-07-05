@@ -1,0 +1,47 @@
+{
+  "name": "global-diff",
+  "version": "1.0.0",
+  "description": "It compares yours window with the list of default scope.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shapkarin/global-diff.git"
+  },
+  "keywords": [
+    "window",
+    "browser",
+    "diff",
+    "difference"
+  ],
+  "author": {
+    "name": "Yury Shapkarin",
+    "email": "yury@shapkarin.me",
+    "url": "https://shapkarin.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shapkarin/global-diff/issues"
+  },
+  "homepage": "https://github.com/shapkarin/global-diff#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "babel-loader": "^8.1.0",
+    "redux-saga": ">=0.15.0",
+    "redux-saga-routines": "^3.2.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "globals": ">=13.1.0"
+  }
+}
