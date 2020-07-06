@@ -1,6 +1,6 @@
 {
   "name": "global-diff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It compares yours window with the list of default scope.",
   "main": "build/index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "build": "webpack",
     "prepublishOnly": "npm run build"
   },
+  "files": [
+		"build/index.js"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shapkarin/global-diff.git"
