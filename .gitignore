@@ -104,3 +104,6 @@ dist
 .tern-port
 
 /build
+
+browser_vars.json
+result_browser_vars.json
