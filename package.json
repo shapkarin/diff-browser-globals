@@ -9,8 +9,8 @@
     "prepublishOnly": "npm run build"
   },
   "files": [
-		"build/index.js"
-	],
+    "build/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shapkarin/global-diff.git"
@@ -26,6 +26,13 @@
     "email": "yury@shapkarin.me",
     "url": "https://shapkarin.me"
   },
+  "contributors": [
+    {
+      "name": "Denis Davidyuk",
+      "email": "denis_davidyuk@hotmail.com",
+      "url": "https://www.upwork.com/o/profiles/users/~01df9ec96e07862b14/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shapkarin/global-diff/issues"
