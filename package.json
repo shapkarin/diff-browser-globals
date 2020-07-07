@@ -1,6 +1,6 @@
 {
   "name": "global-diff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It compares yours window with the list of default scope.",
   "main": "build/index.js",
   "scripts": {
