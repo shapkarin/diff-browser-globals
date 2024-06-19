@@ -48,10 +48,10 @@
     "babel-loader": "^8.1.0",
     "redux-saga": ">=0.15.0",
     "redux-saga-routines": "^3.2.2",
-    "webpack": "^4.42.1",
+    "webpack": "4.42.1",
     "webpack-cli": "^3.3.11"
   },
   "peerDependencies": {
-    "globals": ">=13.1.0"
+    "globals": "13.1.0"
   }
 }
