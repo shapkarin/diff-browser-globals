@@ -6,7 +6,7 @@ Compare your window scope with a list of default.
 
 ### Install
 ```
-npm i --save-dev diff-browser-envs
+npm i --save-dev diff-browser-globals
 ```
 
 Contributions are welcome.

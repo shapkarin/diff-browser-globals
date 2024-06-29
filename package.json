@@ -1,5 +1,5 @@
 {
-  "name": "diff-browser-envs",
+  "name": "diff-browser-globals",
   "version": "1.0.4",
   "description": "It compares the list of runtime browser scope with your browser global scope.",
   "main": "build/index.js",
