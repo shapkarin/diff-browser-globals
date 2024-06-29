@@ -1,7 +1,7 @@
 {
-  "name": "global-diff",
-  "version": "1.0.3",
-  "description": "It compares yours window with the list of default scope.",
+  "name": "diff-browser-envs",
+  "version": "1.0.4",
+  "description": "It compares the list of runtime browser scope with your browser global scope.",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,40 +18,30 @@
   "keywords": [
     "window",
     "browser",
+    "runtime",
     "diff",
     "difference"
   ],
   "author": {
-    "name": "Yury Shapkarin",
-    "email": "yury@shapkarin.me",
-    "url": "https://shapkarin.me"
+    "name": "Yury Shapkarin"
   },
   "contributors": [
     {
-      "name": "Denis Davidyuk",
-      "email": "denis_davidyuk@hotmail.com",
-      "url": "https://www.upwork.com/o/profiles/users/~01df9ec96e07862b14/"
+      "name": "Denis Davidyuk"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shapkarin/global-diff/issues"
+    "url": "https://github.com/shapkarin/diff-browser-envs/issues"
   },
-  "homepage": "https://github.com/shapkarin/global-diff#readme",
+  "homepage": "https://github.com/shapkarin/diff-browser-envs#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/register": "^7.9.0",
-    "@babel/runtime": "^7.9.2",
     "babel-loader": "^8.1.0",
-    "redux-saga": ">=0.15.0",
-    "redux-saga-routines": "^3.2.2",
-    "webpack": "4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
-    "globals": "13.1.0"
+    "globals": "^15.6.0"
   }
 }

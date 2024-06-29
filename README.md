@@ -2,11 +2,11 @@
 Sometimes you need to know the names of global scope.
 
 ### How?
-Compare yours window with the list of default scope.
+Compare your window scope with a list of default.
 
 ### Install
 ```
-npm i --save-dev global-diff
+npm i --save-dev diff-browser-envs
 ```
 
 Contributions are welcome.
